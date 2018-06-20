@@ -32,7 +32,7 @@ describe 'Collection Finder' do
           [5, 'Lucas Duda']
         ]
 
-         expect(find_element(baseball_players, 'Gary Sanchez')).to eq( 34, 'Gary Sanchez')
+         expect(find_element(baseball_players, 'Gary Sanchez')).to eq([34, 'Gary Sanchez'])
       end
 
 end
